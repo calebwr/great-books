@@ -24,7 +24,7 @@ app.use(bodyparser.urlencoded({
 
 // Store site-wide information for templates
 app.locals.sitename = 'Great Books';
-app.locals.source_url = 'https://github.com/unioncollege-webtech/great-books';
+app.locals.source_url = 'https://github.com/calebwr/great-books';
 
 // Initialize the book database
 var booklist = [];
